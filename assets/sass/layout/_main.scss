@@ -1,0 +1,22 @@
+.perfil-cover__img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.perfil-info {
+
+  h5 {
+    font-family: $roboto;
+    font-size: $large;
+    font-weight: $bold;
+    color: black;
+  }
+
+  p {
+    font-family: $roboto;
+    font-size: $small;
+    font-weight: 300;
+    color: $gray;
+  }
+
+}

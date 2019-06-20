@@ -12,90 +12,93 @@
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <div class="row col-12 menu">
-        <div class="row col-6 menu-logo__menu">
-          <h3>GIGEO</h3>
-          <small>ART</small>
-        </div>
-        <div class="row col-6 menu-icons__menu">
-          <i class="fas fa-search .d-none .d-sm-block"></i>
-          <i class="fas fa-video .d-none .d-sm-block"></i>
-          <i class="fas fa-plus	.d-none .d-sm-block"></i>
-          <i class="far fa-bell .d-none .d-sm-block"></i>
+  <header class="container">
+
+    <div class="row">
+      <div class="col-4 menu-logo__menu">
+        <h3>GIGEO</h3>
+        <small>ART</small>
+      </div>
+      <div class="col-8">
+        <nav class="menu-icons__menu">
+          <i class="fas fa-search d-none d-sm-block"></i>
+          <i class="fas fa-video d-none d-sm-block"></i>
+          <i class="fas fa-plus d-none d-sm-block"></i>
+          <i class="far fa-bell d-none d-sm-block"></i>
           <i class="fas fa-bars"></i>
-        </div>
+        </nav>
       </div>
     </div>
 
-    <div class="container">
-      <img class="banner-img" src="assets/img/image-banner.png" alt="banner">
-    </div>
+    <div class="banner-img"></div>
   </header>
 
-  <main>
-    <div class="container">
-      <div class="row col-12 perfil">
-        <section class="col-6 perfil-img">
-          <img src="assets/img/profile-image.png" alt="profile">
-          <h5>Yuki Mukami</h5>
-          <p>30.000 seguidores</p>
-        </section>
-        <div class="col-6 perfil-buttons">
-          <button type="button" name="button">Mensaje</button>
-          <button type="button" name="button">Seguir</button>
-        </div>
+  <main class="container">
+    <div class="row">
+      <div class="col-2 perfil-cover">
+        <img class="perfil-cover__img "src="assets/img/profile-image.png" alt="profile">
+      </div>
+      <div class="col-4 perfil-info">
+        <h5>Yuki Mukami</h5>
+        <p>30.000 seguidores</p>
+      </div>
+      <div class="col-6 perfil-buttons">
+        <button class="d-none d-sm-block" type="button" name="button">Mensaje</button>
+        <button class="d-none d-sm-block" type="button" name="button">Seguir</button>
       </div>
       <hr>
     </div>
+  </main>
+
+  <main>
+
+    <h3>Videos populares</h3>
 
     <div class="container">
-      <div class="row col-3">
-        <h3>Videos populares</h3>
-        <div class="vela">
+      <div class="row">
+        <article class="col-3 vela">
           <img src="assets/img/image-1.png" alt="1">
           <h5>Después de la vela - Yuki Mukami</h5>
           <small>16k vistas - 1 semana atrás</small>
-        </div>
-        <div class="far-away">
+        </article>
+        <article class="col-3 far-away">
           <img src="assets/img/image-2.png" alt="2">
           <h5>Far Away - Yuki Mukami</h5>
           <small>100k vistas - 1 mes atrás</small>
-        </div>
-        <div class="city">
+        </article>
+        <article class="col-3 city">
           <img src="assets/img/image-3.png" alt="3">
           <h5>City - Yuki Mukami</h5>
           <small>20k vistas - 1 mes atrás</small>
-        </div>
-        <div class="yuki-tale">
+        </article>
+        <article class="col-3 yuki-tale">
           <img src="assets/img/image-4.png" alt="4">
           <h5>A Yuki Tale - Yuki Mukami</h5>
           <small>1m vistas - 1 año atrás</small>
-        </div>
+        </article>
       </div>
 
-      <div class="row col-3">
-        <div class="mapocho">
+      <div class="row">
+        <article class="col-3 mapocho">
           <img src="assets/img/image-5.png" alt="5">
           <h5>Mapocho - Yuki Mukami</h5>
           <small>100k vistas - 1 mes atrás</small>
-        </div>
-        <div class="luky">
+        </article>
+        <article class="col-3 luky">
           <img src="assets/img/image-6.png" alt="6">
           <h5>Luky Days - Yuki Mukami</h5>
           <small>40k vistas - 3 meses atrás</small>
-        </div>
-        <div class="house">
+        </article>
+        <article class="col-3 house">
           <img src="assets/img/image-7.png" alt="7">
           <h5>30 Days in my house</h5>
           <small>10k vistas - 4 mesese atrás</small>
-        </div>
-        <div class="santiago">
+        </article>
+        <article class="col-3 santiago">
           <img src="assets/img/image-8.png" alt="8">
           <h5>Santiago - Yuki Mukami</h5>
           <small>40k vistas - 3 meses atrás</small>
-        </div>
+        </article>
       </div>
     </div>
   </main>

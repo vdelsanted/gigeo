@@ -1,17 +1,19 @@
-// Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-
 // Vendors
 @import 'vendors/bootstrap-4.3.1/bootstrap';
 
-// Base
+// Abstracts
 @import 'base/reset';
-@import 'base/typography';
+
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Base
 @import 'base/base';
+@import 'base/typography';
+
 
 // Layout
-@import 'layout/sidebar';
+@import 'layout/header';
 @import 'layout/main';
 
 // Components
