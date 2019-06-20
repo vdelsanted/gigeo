@@ -1,6 +1,31 @@
+header {
+  padding-top: 25px;
+}
+
+.menu-logo__menu {
+  display: flex;
+
+  h5 {
+    font-family: $open-sans;
+    font-weight: $bold;
+    font-size: $x-large;
+  }
+
+  small {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: x-small;
+  }
+
+}
+
 .menu-icons__menu {
   display: flex;
   justify-content: flex-end;
+
+  i {
+    padding: 10px;
+  }
 }
 
 .banner-img {

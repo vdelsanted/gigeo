@@ -9711,48 +9711,68 @@ table {
 @media only screen and (max-width: 768px) {
   body {
     margin: 0 auto;
-    background-color: blue;
+    background-color: #FFF;
   }
 }
 @media only screen and (max-width: 375px) {
   body {
     margin: 0 auto;
-    background-color: red;
+    background-color: #FFF;
   }
 }
+header {
+  padding-top: 25px;
+}
+
+.menu-logo__menu {
+  display: flex;
+}
+.menu-logo__menu h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+.menu-logo__menu small {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: x-small;
+}
+
 .menu-icons__menu {
   display: flex;
   justify-content: flex-end;
+}
+.menu-icons__menu i {
+  padding: 10px;
 }
 
 .banner-img {
   background-image: url("../img/image-banner.png");
   width: 100%;
-  height: 200px;
+  height: auto;
   background-position: 0 center;
   background-size: cover;
 }
 
 .perfil-cover__img {
-  width: 100%;
+  width: 50%;
   border-radius: 50%;
+  margin-left: 80px;
 }
 
 .perfil-info h5 {
-  font-family: "roboto", sans-serif;
-  font-size: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
   font-weight: 700;
   color: black;
+  padding-top: 10px;
 }
 .perfil-info p {
   font-family: "roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #BEC1BB;
-}
-
-button {
-  display: inline-block;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
