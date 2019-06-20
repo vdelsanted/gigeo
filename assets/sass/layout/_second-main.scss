@@ -28,6 +28,21 @@
   img {
   width: 90%;
   background-size: cover;
-  margin: 0 10px;
+  align-content: center;
+  }
+}
+
+.second-main__vela {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0 auto;
+    background-color: $white;
+  }
+
+  .row article {
+    padding-bottom: 20px;
   }
 }
