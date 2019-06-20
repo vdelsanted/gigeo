@@ -1,1 +1,30 @@
+.perfil-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
 
+  button {
+    font-family: $roboto;
+    font-size: $regular;
+    font-weight: $regular;
+    border: $white;
+    justify-content: flex-end;
+  }
+}
+
+.perfil-buttons__first {
+  background-color: $cloud;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  color: $white;
+}
+
+.perfil-buttons__second {
+  background-color: $jelly-bean;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  color: $white;
+  margin-left: 15px;
+}

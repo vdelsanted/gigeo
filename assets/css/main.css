@@ -9721,7 +9721,7 @@ table {
   }
 }
 header {
-  padding-top: 25px;
+  margin: 20px;
 }
 
 .menu-logo__menu {
@@ -9741,6 +9741,7 @@ header {
 .menu-icons__menu {
   display: flex;
   justify-content: flex-end;
+  margin-right: 80px;
 }
 .menu-icons__menu i {
   padding: 10px;
@@ -9757,22 +9758,118 @@ header {
 .perfil-cover__img {
   width: 50%;
   border-radius: 50%;
-  margin-left: 80px;
 }
 
+.perfil-info {
+  padding-top: 10px;
+  margin-left: -90px;
+}
 .perfil-info h5 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: black;
-  padding-top: 10px;
 }
 .perfil-info p {
   font-family: "roboto", sans-serif;
   font-size: 14px;
   font-weight: 300;
   color: #BEC1BB;
-  padding-top: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0 auto;
+    background-color: #FFF;
+  }
+
+  main {
+    margin: 0;
+    display: inline-block;
+    align-content: center;
+  }
+
+  .perfil-cover__img {
+    width: 50%;
+    border-radius: 50%;
+    align-items: center;
+  }
+
+  .perfil-info {
+    padding-top: 10px;
+    margin-left: -90px;
+  }
+  .perfil-info h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+  }
+  .perfil-info p {
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #BEC1BB;
+  }
+}
+.second-main {
+  margin: 40px;
+}
+.second-main h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.second-main h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding-top: 30px;
+}
+.second-main small {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #BEC1BB;
+  padding-bottom: 20px;
+}
+.second-main img {
+  width: 90%;
+  background-size: cover;
+  margin: 0 10px;
+}
+
+.perfil-buttons {
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+}
+.perfil-buttons button {
+  font-family: "roboto", sans-serif;
+  font-size: 400;
+  font-weight: 400;
+  border: #FFF;
+  justify-content: flex-end;
+}
+
+.perfil-buttons__first {
+  background-color: #56cbf9;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  color: #FFF;
+}
+
+.perfil-buttons__second {
+  background-color: #E56353;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  color: #FFF;
+  margin-left: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
