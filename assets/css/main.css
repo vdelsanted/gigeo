@@ -9727,6 +9727,8 @@ header {
 
 .menu-logo__menu {
   display: flex;
+  margin-bottom: 10px;
+  padding-left: 80px;
 }
 .menu-logo__menu h3 {
   font-family: "roboto", sans-serif;
@@ -9742,6 +9744,7 @@ header {
 .menu-icons__menu {
   display: flex;
   justify-content: flex-end;
+  padding-right: 80px;
 }
 .menu-icons__menu i {
   padding-left: 20px;
@@ -9771,7 +9774,8 @@ header {
 
   .menu-logo__menu {
     display: flex;
-    margin-left: 30px;
+    margin: 0;
+    padding-left: 20px;
   }
   .menu-logo__menu h3 {
     font-family: "roboto", sans-serif;
@@ -9784,8 +9788,13 @@ header {
     font-size: 10px;
   }
 
+  .menu-icons__menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
   .menu-icons__menu i {
-    margin-top: -25px;
+    padding-left: 10px;
   }
 }
 .perfil-cover__img {
